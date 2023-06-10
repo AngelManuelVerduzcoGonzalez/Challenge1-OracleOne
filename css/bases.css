@@ -1,0 +1,14 @@
+:root {
+
+    --background-blanco: #ffffff;
+
+    --open-sans: 'Open Sans', sans-serif;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    padding-left: 8%;
+    padding-right: 8%;
+}

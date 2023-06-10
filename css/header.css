@@ -1,0 +1,15 @@
+.header {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-color: var(--background-blanco);
+}
+.header__lista {
+    display: flex;
+}
+.header__enlace {
+    font-size: 0.8rem;
+    margin: 0.5rem;
+}
