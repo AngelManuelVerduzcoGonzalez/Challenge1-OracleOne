@@ -1,14 +1,15 @@
 :root {
 
     --background-blanco: #ffffff;
+    --color-gris-fuerte: #464646;
 
-    --open-sans: 'Open Sans', sans-serif;
+    --raleway: 'Raleway', sans-serif;
 }
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .container {
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 12%;
+    padding-right: 12%;
 }

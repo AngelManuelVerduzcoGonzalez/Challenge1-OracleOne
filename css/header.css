@@ -5,6 +5,7 @@
     padding-top: 2rem;
     padding-bottom: 1rem;
     background-color: var(--background-blanco);
+    align-items: center;
 }
 .header__lista {
     display: flex;
@@ -12,4 +13,12 @@
 .header__enlace {
     font-size: 0.8rem;
     margin: 0.5rem;
+    transition: all 0.1s ease-in-out;
+}
+.header__enlace--correo {
+    font-weight: bold;
+}
+.header__enlace:hover {
+    text-decoration: underline;
+    color: #868686;
 }
