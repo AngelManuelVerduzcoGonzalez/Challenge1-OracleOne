@@ -1,0 +1,26 @@
+.sobreMi {
+    background-color: var(--background-azul-claro);
+    margin-top: 2rem;
+    padding-right: 38%;
+}
+
+.sobreMi__titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-gris-fuerte);
+    padding-top: 3rem;
+}
+
+.sobreMi__descripcion {
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--color-gris-fuerte);
+    line-height: 1.125rem;
+    padding-top: 1.5rem;
+}
+
+.sobreMi__firma {
+    width: 140px;
+    height: 80px;
+    margin-top: 0.75rem;
+}

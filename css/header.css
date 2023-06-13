@@ -7,13 +7,20 @@
     background-color: var(--background-blanco);
     align-items: center;
 }
+
+.header__name {
+    font-weight: bold;
+    color: var(--color-gris-fuerte);
+}
+
 .header__lista {
     display: flex;
 }
 .header__enlace {
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin: 0.5rem;
     transition: all 0.1s ease-in-out;
+    color: var(--color-gris-fuerte);
 }
 .header__enlace--correo {
     font-weight: bold;

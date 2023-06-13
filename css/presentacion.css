@@ -10,17 +10,18 @@
 }
 
 .presentacion__titulo {
-    font-size: 2.15rem;
+    font-size: 3rem;
     font-weight: bold;
     color: var(--color-gris-fuerte);
-    text-align: justify;
 }
 
 .presentacion__descripcion {
     line-height: 20px;
     text-align: justify;
     margin-top: 1.5rem;
-    font-weight: 300;
+    font-weight: 400;
+    color: var(--color-gris-fuerte);
+    font-size: 1.25rem;
 }
 
 .presentacion__lista {
@@ -31,7 +32,7 @@
 .presentacion__enlace {
     margin-right: 3rem;
     padding-right: 1rem;
-    font-size: 0.75rem;
+    font-size: 1rem;
     background-image: url(../img/arrow.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -43,7 +44,7 @@
 }
 
 .presentacion__imagen {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border-radius: 100%;
 }
