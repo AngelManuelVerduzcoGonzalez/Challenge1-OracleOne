@@ -2,13 +2,14 @@
     background-color: var(--background-azul-claro);
     margin-top: 2rem;
     padding-right: 38%;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
 }
 
 .sobreMi__titulo {
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--color-gris-fuerte);
-    padding-top: 3rem;
 }
 
 .sobreMi__descripcion {

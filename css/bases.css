@@ -1,6 +1,7 @@
 :root {
 
-    --background-blanco: #ffffff;
+    --background-blanco: #FFFFFF;
+    --background-blanco-oscuro: #F5F5F5;
     --background-azul-claro: #EAF2FD;
     --color-gris-fuerte: #464646;
 
@@ -8,6 +9,7 @@
 }
 body {
     font-family: 'Raleway', sans-serif;
+    background-color: var(--background-blanco-oscuro);
 }
 
 .container {
