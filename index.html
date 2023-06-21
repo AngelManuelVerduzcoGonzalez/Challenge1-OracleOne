@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="css/hobbies.css">
     <link rel="stylesheet" href="css/formacion.css">
     <link rel="stylesheet" href="css/experiencia.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
     <header class="header container">
@@ -134,9 +136,24 @@
                     </div>
             </div>
         </section>
+        <section class="contacto container">
+            <img src="img/contacto.png" alt="Imagen de contacto" class="contacto__imagen">
+            <div class="contacto__seccion">
+                <h4 class="contacto__titulo">Contacto</h4>
+                <p class="contacto__descripcion">¿Quieres contactarme?<br>
+                    Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+                <form action="" class="contacto__form">
+                    <input id="nombre" type="text" class="contacto__input" placeholder="Nombre">
+                    <input id="email" type="email" class="contacto__input" placeholder="Email">
+                    <input type="text" class="contacto__input" placeholder="Asunto">
+                    <textarea type="text" rows="5" cols="40" class="contacto__input" placeholder="Mensaje"></textarea>
+                    <input type="submit" class="contacto__boton" value="Enviar mensaje">
+                </form>
+            </div>
+        </section>
     </main>
-    <footer>
-
+    <footer class="footer container">
+        <p class="footer__texto">Creado por Angel Manuel Verduzco González <br> 2022</p>
     </footer>
 </body>
 </html>

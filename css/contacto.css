@@ -1,0 +1,85 @@
+.contacto {
+    display: flex;
+    background-color: var(--background-azul-claro);
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}
+
+.contacto__imagen {
+    width: 464px;
+}
+
+.contacto__seccion {
+    padding-left: 1rem;
+}
+
+.contacto__titulo {
+    color: var(--color-gris-fuerte);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.contacto__descripcion {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+.contacto__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.contacto__input {
+    border-width: 1px;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border-color: transparent transparent var(--color-gris-linea) transparent ;
+    padding: 0.80rem;
+    width: 100%;
+    font-family: var(--raleway);
+    font-size: 0.90rem;
+}
+
+.contacto__input::placeholder {
+    color: var(--color-gris-claro);
+}
+
+.contacto__input:focus {
+    outline: none;
+    border-color: transparent transparent var(--color-azul) transparent ;
+    border-width: 1.5px;
+}
+
+.contacto__input:focus::placeholder {
+    color: var(--color-azul);
+    display: block;
+}
+
+.contacto__boton {
+    font-family: var(--raleway);
+    font-size: 0.90rem;
+    color: var(--background-blanco);
+    background-color: var(--color-azul);
+    border-color: var(--color-azul);
+    border-style: solid;
+    padding: 0.75rem;
+    transition: all 0.3s ease-in-out;
+    border-width: 1px;
+}
+
+.contacto__boton:hover {
+    font-family: var(--raleway);
+    font-size: 0.90rem;
+    color: var(--background-blanco);
+    border-color: var(--color-azul-cielo);
+    border-style: solid;
+    border-width: 1px;
+    background-color: var(--color-azul-cielo);
+    padding: 0.75rem;
+    cursor: pointer;
+}
