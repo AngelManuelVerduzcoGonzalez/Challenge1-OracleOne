@@ -47,3 +47,32 @@
     height: 350px;
     border-radius: 100%;
 }
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+    .presentacion {
+        margin-top: 2rem;
+    }
+
+    .presentacion__informacion{
+        margin-right: 3rem;
+    }
+
+    .presentacion__titulo {
+        font-size: 1.5rem;
+    }
+
+    .presentacion__descripcion {
+        font-size: 1rem;
+    }
+
+    .presentacion__imagen {
+        width: 146px;
+        height: 146px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .presentacion__titulo {
+        font-size: 1.5rem;
+    }
+}

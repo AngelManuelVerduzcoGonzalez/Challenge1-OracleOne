@@ -43,6 +43,7 @@
     width: 100%;
     font-family: var(--raleway);
     font-size: 0.90rem;
+    box-sizing: border-box;
 }
 
 .contacto__input::placeholder {
@@ -82,4 +83,26 @@
     background-color: var(--color-azul-cielo);
     padding: 0.75rem;
     cursor: pointer;
+}
+
+@media screen and (min-width:668px) and (max-width: 1024px) {
+    .contacto {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+    .contacto__titulo {
+        font-size: 1.5rem;
+    }
+   
+    .contacto__imagen {
+        display: none;
+    }
+
+    .contacto__seccion {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    
 }

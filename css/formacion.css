@@ -2,11 +2,11 @@
     text-align: center;
     background-color: var(--background-azul-claro);
     padding-bottom: 4rem;
+    padding-top: 5rem;
 }
 
 
 .formacion__titulo {
-    padding-top: 5rem;
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--color-gris-fuerte);
@@ -29,8 +29,23 @@
     align-items: start;
 }
 
-.formacion__item--logo {
+.formacion__item--logo-alura {
     background-color: var(--background-blanco);
+    background-image: url(../img/alura_logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 286px;
+    width: 100%;
+}
+.formacion__item--logo-udec {
+    background-color: var(--background-blanco);
+    background-image: url(../img/udec_logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -53,4 +68,20 @@
 
 .formacion__info {
     font-size: 0.90rem;
+}
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+    .formacion {
+        padding-top: 2rem;
+    }
+
+    .formacion__lista {
+        text-align: start;
+    }
+    .formacion__item--logo-alura {
+        height: 190px;
+    }
+    .formacion__item--logo-udec {
+        height: 190px;
+    }
 }

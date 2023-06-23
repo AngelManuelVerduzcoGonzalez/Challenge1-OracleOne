@@ -23,8 +23,33 @@
 }
 .header__enlace--correo {
     font-weight: bold;
+    font-size: 1rem;
+    margin: 0.5rem;
+    transition: all 0.1s ease-in-out;
+    color: var(--color-gris-fuerte);
 }
 .header__enlace:hover {
     text-decoration: underline;
     color: #868686;
+}
+
+@media screen and (min-width: 1024px) {
+    .header__enlace {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .header__enlace {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .header__enlace {
+        display: none;
+    }
+    .header__enlace--correo {
+        font-weight: normal;
+    }
 }
