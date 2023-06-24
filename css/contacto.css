@@ -103,6 +103,16 @@
         padding-left: 0;
         width: 100%;
     }
+}
 
-    
+@media screen and (min-width:0px) and (max-width:768px) {
+    .contacto {
+        padding-top: 2rem;
+        padding-left: 0;
+        padding-bottom: 2rem;
+    }
+
+    .contacto__imagen {
+        display: none;
+    }
 }

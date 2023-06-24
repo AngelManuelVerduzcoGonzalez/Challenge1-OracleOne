@@ -127,3 +127,31 @@
     }
 
 }
+
+@media screen and (min-width:0px) and (max-width:768px) {
+    .experiencia__seccion--derecha {
+        flex-direction: column;
+    }
+    
+    .experiencia__seccion--izquierda {
+        flex-direction: column;
+    }
+
+    .experiencia__informacion {
+        padding-left: 0;
+    }
+
+    .experiencia__descripcion {
+        padding-bottom: 0.5rem;
+    }
+
+    .experiencia__nombre {
+        padding-top: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .experiencia__imagen {
+        width: 100%;
+        height: auto;
+    }
+}

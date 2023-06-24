@@ -58,3 +58,21 @@
         height: 90px;
     }
 }
+
+@media screen and (min-width:0px) and (max-width:768px) {
+    .hobbies {
+        margin-bottom: 2rem;
+    }
+
+    .hobbies__lista {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .hobbies__item {
+        width: calc((100% / 2) - 60px);
+        margin-right: 0;
+        height: 90px;
+        margin-bottom: 1rem;
+    }
+}

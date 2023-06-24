@@ -33,6 +33,11 @@
     color: #868686;
 }
 
+.header__enlace--correo:hover {
+    text-decoration: underline;
+    color: #868686;
+}
+
 @media screen and (min-width: 1024px) {
     .header__enlace {
         display: inline-block;
@@ -46,10 +51,17 @@
 }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
+    .header__lista {
+        width: 100%;
+        justify-content: space-between;
+    }
+
     .header__enlace {
         display: none;
     }
+    
     .header__enlace--correo {
         font-weight: normal;
+        font-size: 0.6rem;
     }
 }

@@ -34,7 +34,7 @@
     font-size: 1rem;
     background-image: url(../img/arrow.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right 10% top 70%; 
 }
 
 .presentacion__enlace:hover {
@@ -72,7 +72,40 @@
 }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
+    .presentacion {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        margin-top: 1rem;
+    }
+
+    .presentacion__informacion {
+        width: 100%;
+        padding-right: 0;
+    }
+    
     .presentacion__titulo {
         font-size: 1.5rem;
+    }
+
+    .presentacion__imagen {
+        width: 98px;
+        height: 98px;
+        margin-bottom: 1rem;
+    }
+
+    .presentacion__descripcion {
+        font-size: 1rem;
+        text-align: start;
+    }
+
+    .presentacion__lista {
+        justify-content: space-between;
+    }
+
+    .presentacion__enlace {
+        font-weight: 600;
+        margin-right: 0;
+        box-sizing: border-box;
+        font-size: 0.8rem;
     }
 }

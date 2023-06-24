@@ -85,3 +85,37 @@
         height: 190px;
     }
 }
+
+@media screen and (min-width:0px) and (max-width:768px) {
+    .formacion {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .formacion__caja {
+        flex-direction: column;
+    }
+
+    .formacion__lista {
+        text-align: start;
+    }
+
+    .formacion__seccion {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .formacion__nombre {
+        font-size: 1rem;
+    }
+
+    .formacion__item--logo-udec {
+        height: 120px;
+        background-size: 70px;
+    }
+
+    .formacion__item--logo-alura {
+        height: 120px;
+        background-size: 70px;
+    }
+}

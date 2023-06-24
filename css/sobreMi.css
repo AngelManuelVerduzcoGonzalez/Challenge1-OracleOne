@@ -33,3 +33,11 @@
         padding-bottom: 2rem;
     }
 }
+
+@media screen and (min-width:0px) and (max-width:780px) {
+    .sobreMi {
+        padding-top: 2rem;
+        padding-right: 6%;
+        padding-bottom: 2rem;
+    }
+}
