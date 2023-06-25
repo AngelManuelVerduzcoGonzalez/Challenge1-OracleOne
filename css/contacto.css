@@ -36,7 +36,6 @@
 
 .contacto__input {
     border-width: 1px;
-    margin-bottom: 1rem;
     border-radius: 4px;
     border-color: transparent transparent var(--color-gris-linea) transparent ;
     padding: 0.80rem;
@@ -83,6 +82,31 @@
     background-color: var(--color-azul-cielo);
     padding: 0.75rem;
     cursor: pointer;
+}
+
+.contacto__error {
+    display: none;
+}
+
+.contacto__division {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.contacto__division--invalido .contacto__error {
+    display: inline-block;
+    color: var(--color-rojo);
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+}
+
+.contacto__division--invalido .contacto__input {
+    border-color: transparent transparent var(--color-rojo) transparent;
+    width: 100%;
+}
+
+.contacto__division--invalido .contacto__input::placeholder {
+    color: var(--color-rojo);
 }
 
 @media screen and (min-width:668px) and (max-width: 1024px) {

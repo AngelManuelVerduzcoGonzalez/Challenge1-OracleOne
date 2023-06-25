@@ -39,9 +39,9 @@
                 <p class="presentacion__descripcion">Estoy siendo formado en la Universidad de Colima y actualmente estoy siendo parte del proyecto Oracle ONE en Alura Latam donde estoy tomando la especialización de FrontEnd Developer.</p>
                 <ul class="presentacion__lista">
                     <li class="presentacion__item"><a class="presentacion__enlace" href="https://github.com/AngelManuelVerduzcoGonzalez">GitHub</a></li>
-                    <li class="presentacion__item"><a class="presentacion__enlace" href="">Linkedin</a></li>
-                    <li class="presentacion__item"><a class="presentacion__enlace" href="">Instagram</a></li>
-                    <li class="presentacion__item"><a class="presentacion__enlace" href="">Facebook</a></li>
+                    <li class="presentacion__item"><a class="presentacion__enlace" href="https://www.linkedin.com/in/angel-verduzco-005927274">Linkedin</a></li>
+                    <li class="presentacion__item"><a class="presentacion__enlace" href="https://www.instagram.com/angelverduzco04/">Instagram</a></li>
+                    <li class="presentacion__item"><a class="presentacion__enlace" href="https://www.facebook.com/manuel.verduzco.1840">Facebook</a></li>
                 </ul>
             </div>
             <img class="presentacion__imagen" src="img/selfie.jpeg" alt="Foto de Angel"></img>
@@ -120,7 +120,7 @@
                     <h4 class="experiencia__nombre">Agenda</h4>
                     <p class="experiencia__descripcion">Exámen práctico de la Universidad de Colima</p>
                     <div class="experiencia__botones">
-                        <button class="experiencia__repositorio">Repositorio</button>
+                        <button class="experiencia__repositorio" onclick="window.location.href='https://github.com/AngelManuelVerduzcoGonzalez/Challenge1-OracleOne';" >Repositorio</button>
                         <button class="experiencia__demo">Ver demo</button>
                     </div>
                 </div>
@@ -131,7 +131,7 @@
                     <h4 class="experiencia__nombre">Página web básica (no responsiva)</h4>
                     <p class="experiencia__descripcion">Challenge de FrontEnd Mentor</p>
                     <div class="experiencia__botones">
-                        <button class="experiencia__repositorio">Repositorio</button>
+                        <button class="experiencia__repositorio" onclick="window.location.href='https://github.com/AngelManuelVerduzcoGonzalez/Challenge1'">Repositorio</button>
                         <button class="experiencia__demo">Ver demo</button>
                     </div>
             </div>
@@ -143,10 +143,22 @@
                 <p class="contacto__descripcion">¿Quieres contactarme?<br>
                     Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
                 <form action="" class="contacto__form">
-                    <input id="nombre" type="text" class="contacto__input" placeholder="Nombre">
-                    <input id="email" type="email" class="contacto__input" placeholder="Email">
-                    <input type="text" class="contacto__input" placeholder="Asunto">
-                    <textarea type="text" rows="5" cols="40" class="contacto__input" placeholder="Mensaje"></textarea>
+                    <div class="contacto__division">
+                        <input id="nombre" type="text" class="contacto__input" placeholder="Nombre" data-tipo="nombre" required>
+                        <span class="contacto__error">Este campo no es válido</span>
+                    </div>
+                    <div class="contacto__division">
+                        <input id="email" type="email" class="contacto__input" placeholder="Email" data-tipo="email" required>
+                        <span class="contacto__error">Este campo no es válido</span>
+                    </div>
+                    <div class="contacto__division">
+                        <input type="text" class="contacto__input" placeholder="Asunto" data-tipo="asunto" required>
+                        <span class="contacto__error">Este campo no es válido</span>
+                    </div>
+                    <div class="contacto__division">
+                        <textarea type="text" rows="5" cols="40" class="contacto__input" placeholder="Mensaje" data-tipo="mensaje" required></textarea>
+                        <span class="contacto__error">Este campo no es válido</span>
+                    </div>
                     <input type="submit" class="contacto__boton" value="Enviar mensaje">
                 </form>
             </div>
@@ -155,5 +167,6 @@
     <footer class="footer container">
         <p class="footer__texto">Creado por Angel Manuel Verduzco González <br> 2023</p>
     </footer>
+    <script src="js/app.js" type="module"></script>
 </body>
 </html>
